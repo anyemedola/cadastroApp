@@ -6,7 +6,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content fullscreen translucent>
+<ion-content fullscreen translucent >
   <ion-searchbar placeholder="Buscar Linguagem" color="medium"></ion-searchbar>
 
     <ion-item-sliding>
@@ -26,7 +26,7 @@
       </ion-item>
       <ion-item-options side="end">
         <ion-item-option color="light">CARD</ion-item-option>
-        <ion-item-option color="dark">QUIZZ</ion-item-option>
+        <ion-item-option color="dark" routerLink="/php">QUIZZ</ion-item-option>
       </ion-item-options>
     </ion-item-sliding>
 
@@ -47,7 +47,7 @@
       </ion-item>
       <ion-item-options side="end">
         <ion-item-option color="light">CARD</ion-item-option>
-        <ion-item-option color="dark">QUIZZ</ion-item-option>
+        <ion-item-option color="dark" routerLink="/java">QUIZZ</ion-item-option>
       </ion-item-options>
     </ion-item-sliding>
 
@@ -68,7 +68,7 @@
       </ion-item>
       <ion-item-options side="end">
         <ion-item-option color="light">CARD</ion-item-option>
-        <ion-item-option color="dark">QUIZZ</ion-item-option>
+        <ion-item-option color="dark" routerLink="/cplus">QUIZZ</ion-item-option>
       </ion-item-options>
     </ion-item-sliding>
 
@@ -89,7 +89,7 @@
       </ion-item>
       <ion-item-options side="end">
         <ion-item-option color="light">CARD</ion-item-option>
-        <ion-item-option color="dark">QUIZZ</ion-item-option>
+        <ion-item-option color="dark" routerLink="/csharp">QUIZZ</ion-item-option>
       </ion-item-options>
     </ion-item-sliding>
 
@@ -110,7 +110,7 @@
       </ion-item>
       <ion-item-options side="end">
         <ion-item-option color="light">CARD</ion-item-option>
-        <ion-item-option color="dark">QUIZZ</ion-item-option>
+        <ion-item-option color="dark" routerLink="/html5">QUIZZ</ion-item-option>
       </ion-item-options>
     </ion-item-sliding>
 
@@ -131,8 +131,18 @@
       </ion-item>
       <ion-item-options side="end">
         <ion-item-option color="light">CARD</ion-item-option>
-        <ion-item-option color="dark">QUIZZ</ion-item-option>
+        <ion-item-option color="dark" routerLink="/css">QUIZZ</ion-item-option>
       </ion-item-options>
     </ion-item-sliding>
 
+    <form>
+    <ion-button expand="full" color="tertiary" routerLink="/home">
+      Voltar Ao Menu Iniciar
+    </ion-button>
+  </form>
+  <form>
+    <ion-button expand="full" color="tertiary" (click)="exibirAlertLogout()" >
+      Logout
+    </ion-button>
+  </form>
 </ion-content>
