@@ -148,6 +148,102 @@ const routes: Routes = [
     path: 'css4',
     loadChildren: () => import('./css4/css4.module').then( m => m.Css4PageModule)
   },
+  {
+    path: 'cardphp1',
+    loadChildren: () => import('./cardphp1/cardphp1.module').then( m => m.Cardphp1PageModule)
+  },
+  {
+    path: 'cardphp1back',
+    loadChildren: () => import('./cardphp1back/cardphp1back.module').then( m => m.Cardphp1backPageModule)
+  },
+  {
+    path: 'cardphp2',
+    loadChildren: () => import('./cardphp2/cardphp2.module').then( m => m.Cardphp2PageModule)
+  },
+  {
+    path: 'cardphp2back',
+    loadChildren: () => import('./cardphp2back/cardphp2back.module').then( m => m.Cardphp2backPageModule)
+  },
+  {
+    path: 'cardphp3',
+    loadChildren: () => import('./cardphp3/cardphp3.module').then( m => m.Cardphp3PageModule)
+  },
+  {
+    path: 'cardphp3back',
+    loadChildren: () => import('./cardphp3back/cardphp3back.module').then( m => m.Cardphp3backPageModule)
+  },
+  {
+    path: 'cardphp4',
+    loadChildren: () => import('./cardphp4/cardphp4.module').then( m => m.Cardphp4PageModule)
+  },
+  {
+    path: 'cardphp4back',
+    loadChildren: () => import('./cardphp4back/cardphp4back.module').then( m => m.Cardphp4backPageModule)
+  },
+  {
+    path: 'cardjava1',
+    loadChildren: () => import('./cardjava1/cardjava1.module').then( m => m.Cardjava1PageModule)
+  },
+  {
+    path: 'cardjava1back',
+    loadChildren: () => import('./cardjava1back/cardjava1back.module').then( m => m.Cardjava1backPageModule)
+  },
+  {
+    path: 'cardjava2',
+    loadChildren: () => import('./cardjava2/cardjava2.module').then( m => m.Cardjava2PageModule)
+  },
+  {
+    path: 'cardjava2back',
+    loadChildren: () => import('./cardjava2back/cardjava2back.module').then( m => m.Cardjava2backPageModule)
+  },
+  {
+    path: 'cardjava3',
+    loadChildren: () => import('./cardjava3/cardjava3.module').then( m => m.Cardjava3PageModule)
+  },
+  {
+    path: 'cardjava3back',
+    loadChildren: () => import('./cardjava3back/cardjava3back.module').then( m => m.Cardjava3backPageModule)
+  },
+  {
+    path: 'cardjava4',
+    loadChildren: () => import('./cardjava4/cardjava4.module').then( m => m.Cardjava4PageModule)
+  },
+  {
+    path: 'cardjava4back',
+    loadChildren: () => import('./cardjava4back/cardjava4back.module').then( m => m.Cardjava4backPageModule)
+  },
+  {
+    path: 'cardcplus1',
+    loadChildren: () => import('./cardcplus1/cardcplus1.module').then( m => m.Cardcplus1PageModule)
+  },
+  {
+    path: 'cardcplus1back',
+    loadChildren: () => import('./cardcplus1back/cardcplus1back.module').then( m => m.Cardcplus1backPageModule)
+  },
+  {
+    path: 'cardcplus2',
+    loadChildren: () => import('./cardcplus2/cardcplus2.module').then( m => m.Cardcplus2PageModule)
+  },
+  {
+    path: 'cardcplus2back',
+    loadChildren: () => import('./cardcplus2back/cardcplus2back.module').then( m => m.Cardcplus2backPageModule)
+  },
+  {
+    path: 'cardcplus3',
+    loadChildren: () => import('./cardcplus3/cardcplus3.module').then( m => m.Cardcplus3PageModule)
+  },
+  {
+    path: 'cardcplus3back',
+    loadChildren: () => import('./cardcplus3back/cardcplus3back.module').then( m => m.Cardcplus3backPageModule)
+  },
+  {
+    path: 'cardcplus4',
+    loadChildren: () => import('./cardcplus4/cardcplus4.module').then( m => m.Cardcplus4PageModule)
+  },
+  {
+    path: 'cardcplus4back',
+    loadChildren: () => import('./cardcplus4back/cardcplus4back.module').then( m => m.Cardcplus4backPageModule)
+  },
 
 
   
